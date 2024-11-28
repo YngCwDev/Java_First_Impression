@@ -1,0 +1,14 @@
+public class MyFirstApp {
+ 	public static void main (String[] args) {
+		int num = 0;
+		while (num < 4){
+			if(num == 2){
+				System.out.println("It's  two " + num);
+			}else {
+				System.out.println("It's not two " + num);	
+			}
+			num = num + 1;
+		}
+ 	
+ 	}
+}
